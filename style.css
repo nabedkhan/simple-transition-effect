@@ -1,0 +1,60 @@
+
+h1{
+    text-align: center;
+    color: brown;
+}
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    height: 50vh;
+    width: 100vh;
+    margin: auto;
+}
+.box {
+    margin: auto;
+    width: 200px;
+    height: 200px;
+    background-color: brown;
+    transition: 1s ease-in-out;
+    cursor: pointer;
+}
+p{
+    color: #fff;
+    text-align: center;
+    font-size: 24px;
+}
+.scaleX, .translateX{
+    transition: 0.5s ease-in;
+}
+.scaleX:hover{
+    transform: scaleX(1.1);
+}
+.scaleY, .translateY{
+    transition: 0.5s ease-in;
+}
+.scaleY:hover{
+    transform: scaleY(1.2);
+}
+.scale, .translate{
+    transition: 0.5s;
+}
+.scale:hover{
+    transform: scale(0.9);
+}
+
+.translateX:hover{
+    transform: translateX(40px);
+}
+.translateY:hover{
+    transform: translateY(-40px);
+}
+.translate:hover{
+    transform: translate(20px, -20px);
+}
+.rotate:hover{
+    transform: rotate(-45deg);
+}
+.skew:hover{
+    transform: skew(-20deg, 20deg);
+}
